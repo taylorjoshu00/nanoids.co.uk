@@ -2,3 +2,5 @@ title: NanoIDS
 description: NanoIDS is a Suricata Intrusion Detection System based on NanoBSD
 show_downloads: false
 theme: jekyll-theme-cayman
+github:
+  repository_url: https://github.com/taylorjoshu00/NanoIDS
