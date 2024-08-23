@@ -21,7 +21,7 @@ root@freebsd02:/usr/ports/security/suricata # make config
 Enable the features you want, as any example I enabled geoip and Lua and left the rest as defaults
 
 
-![makeconf](https://nanoids.co.uk/make_config.png)
+![makeconf](https://nanoids.co.uk/images/make_config.png)
 
 We also need to modify the ```--localstatedir``` argument to be point to our mounted storage disk (```\data```), using you editor of choice modify the Makefile in the same directory and add the ```--localstatedir``` option with a file path to ```/data/var```:
 
