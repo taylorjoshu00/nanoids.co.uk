@@ -26,12 +26,10 @@ Enable the features you want, as any example I enabled geoip and Lua and left th
 We also need to modify the ```--localstatedir``` argument to be point to our mounted storage disk (```\data```), using you editor of choice modify the Makefile in the same directory and add the ```--localstatedir``` option with a file path to ```/data/var```:
 
 ```bash
- <<< SNIP >>>
 CONFIGURE_ARGS+=	--disable-gccmarch-native \
 			        --enable-bundled-htp \
 			        --enable-gccprotect \
                     --localstatedir=/data/var
-<<< SNIP >>>
 ```
 Then build the package file.
 
