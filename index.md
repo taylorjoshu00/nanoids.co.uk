@@ -16,6 +16,6 @@ Currently this is running on a PC Engines APU2 under FreeBSD version 14.1 and Su
 5. [Build NanoIDS image](./build_nano_image.md)
 6. [Flash Image onto hardware](./flash_image.md)
 
-Updating a image is similar to the above except you only need to write a new slice to the NanaBSD install and set it as the active partition, this is acived easily using the NanoBSD ```update.sh``` script
+Updating a image is similar to the above except you only need to write a new slice to the NanaBSD install and set it as the active partition, this is acived easily using the NanoBSD ```update``` script
  
  This website is still under development In the meantime check out the [repo](https://github.com/taylorjoshu00/NanoIDS)
