@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ### NanoIDS; Suricata Intrusion Detection System based on NanoBSD
 This project aims to build a NanoBSD image, chosen for its resiliance, into a fully fledged Suricata IDS/IPS using FreeBSD's |[Netmap](https://man.freebsd.org/cgi/man.cgi?netmap(4))
 
