@@ -7,7 +7,10 @@ description: build a custom Suricata Image
 You may want to run the default Suricata pkg from the FreeBSD repos, which is the easiest option, by downloading the Suricata package and dependancies to the packages directory:
 
 ```bash
-root@freebsd02:~ # pkg-fetch -d -o /usr/src/tools/tools/nanobsd/nanoids/packages suricata-7.0.6
+root@freebsd02:~ # pkg fetch -d -o /usr/src/tools/tools/nanobsd/nanoids/packages suricata-7.0.6
+root@freebsd02:~ # pkg fetch -d -o /usr/src/tools/tools/nanobsd/nanoids/packages jq
+root@freebsd02:~ # pkg fetch -d -o /usr/src/tools/tools/nanobsd/nanoids/packages oinkmaster
+root@freebsd02:~ # pkg fetch -d -o /usr/src/tools/tools/nanobsd/nanoids/packages pkg
 root@freebsd02:~ # mv /usr/src/tools/tools/nanobsd/nanoids/packages/All* /usr/src/tools/tools/nanobsd/nanoids/packages/
 root@freebsd02:~ # rm -r /usr/src/tools/tools/nanobsd/nanoids/packages/All
 ```
